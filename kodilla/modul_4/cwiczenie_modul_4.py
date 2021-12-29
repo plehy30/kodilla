@@ -4,7 +4,8 @@ def shopping():
         "bułka",
         "ser feta",
         "masło",
-        "pomidor"
+        "pomidor",
+        "mleko"
         """
     ]
     shopping_cart = "Mój koszyk zawiera: "
