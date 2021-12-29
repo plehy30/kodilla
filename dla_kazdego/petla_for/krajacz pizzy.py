@@ -1,0 +1,25 @@
+# Demonstruje tworzenie wycinka łańcucha
+
+word = "pizza"
+print(
+    """
+    'Ściągawka' tworzenia wycinków
+    0   1   2   3   4   5
+    +---+---+---+---+---+
+    | p | i | z | z | a |
+    +---+---+---+---+---+
+   -5  -4  -3  -2  -1 
+    """
+)
+print("Wprowadź początkowy i końcowy indeks wycinka łańcucha 'pizza'.")
+print("Aby zakończyć tworzenia wycinków, w odpowiedzi na monit 'Początek:'\n"
+      + "naciśnij klawisz enter.")
+start = None
+while start != "":
+    start = int(input("\nPoczątek: "))
+    if start:
+        start = int(start)
+        finish = int(input("koniec: "))
+        print("word[", start, ":", finish, "] to", end=" ")
+        print(word[start:finish])
+input("\n\nAby zakończyć program naciśnij Enter.")
