@@ -1,0 +1,31 @@
+import turtle
+
+monty = turtle.Turtle()
+monty.shape("turtle")
+
+monty.penup()
+monty.forward(50)
+monty.write("Spam, spam, pyszny spam")
+monty.backward(50)
+monty.right(90)
+monty.forward(100)
+monty.left(90)
+monty.pendown()
+monty.color("red")
+monty.begin_fill()
+monty.fillcolor("blue")
+for i in range(4):
+    monty.forward(200)
+    monty.right(90)
+monty.end_fill()
+monty.penup()
+monty.goto(100, -200)
+monty.pendown()
+monty.color("")
+monty.begin_fill()
+monty.fillcolor("green")
+monty.circle(100)
+monty.end_fill()
+monty.penup()
+monty.goto(-200, 200)
+
