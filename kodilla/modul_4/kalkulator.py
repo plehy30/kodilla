@@ -1,60 +1,3 @@
-import logging
-logging.basicConfig()
-# while True:
-#     slowo = input("Wpisz słowo: ")
-#     if slowo == 'stop':
-#         break
-#     elif not slowo.isdigit():
-#         print("Niepoprawne")
-#     else:
-#         print(int(slowo) ** 2)
-# print('Koniec')
-# while True:
-#     slowo = input('Wpisz slowo: ')
-#     if slowo == 'stop':
-#         break
-#     try:
-#         numer = int(slowo)
-#     except:
-#         print('Niepoprawne')
-#     else:
-#         print(int(slowo) ** 2)
-# print('Koniec')
-# while True:
-#     slowo = input('Podaj słowo: ')
-#     if slowo == 'stop':
-#         break
-#     try:
-#         print(int(slowo) ** 2)
-#     except:
-#         print("niepoprawne")
-# print('Koniec')
-# while True:
-#     slowo = input("Podaj słowo: ")
-#     if slowo == "stop":
-#         break
-#     elif not slowo.isdigit():
-#         print('Niepoprawne')
-#     else:
-#         num = int(slowo)
-#         if num < 20:
-#             print('Za mało')
-#         else:
-#             print(num ** 2)
-# print('Koniec')
-# while True:
-#     slowo = input("Podaj slowo")
-#     if slowo == 'stop':
-#         break
-#     try:
-#         print(int(slowo) ** 2)
-#     except:
-#         print('niepoprawne')
-# print('koniec')
-
-
-
-
 def dodawanie(x, y):
     return int(x) + int(y)
 
@@ -85,28 +28,28 @@ while True:
         if operator == '+':
             logging.info("Teraz dodaję")
             print(f'wynik dodawania {x} i {y} wynosi {dodawanie(x, y)}')
-            pytanie = int(input("Liczymy dalej?Jeżeli nie to naciśnij 0"))
+            pytanie = int(input("Liczymy dalej? Jeżeli tak to naciśnij jakąś cyfrę, a jeżeli nie to naciśnij 0"))
             if pytanie == 0:
                 break
             else:
                 continue
         elif operator == '-':
             print(f'wynik odejmowania {x} i {y} wynosi {odejmowanie(x, y)}')
-            pytanie = int(input("Liczymy dalej?Jeżeli nie to naciśnij 0"))
+            pytanie = int(input("Liczymy dalej? Jeżeli tak to naciśnij jakąś cyfrę, a jeżeli nie to naciśnij 0"))
             if pytanie == 0:
                 break
             else:
                 continue
         elif operator == '*':
             print(f'wynik mnożenia {x} i {y} wynosi {mnozenie(x, y)}')
-            pytanie = int(input("Liczymy dalej?Jeżeli nie to naciśnij 0"))
+            pytanie = int(input("Liczymy dalej? Jeżeli tak to naciśnij jakąś cyfrę, a jeżeli nie to naciśnij 0"))
             if pytanie == 0:
                 break
             else:
                 continue
         elif operator == '/':
             print(f'wynik dzielenia {x} i {y} wynosi {dzielenie(x, y)}')
-            pytanie = int(input("Liczymy dalej?Jeżeli nie to naciśnij 0"))
+            pytanie = int(input("Liczymy dalej? Jeżeli tak to naciśnij jakąś cyfrę, a jeżeli nie to naciśnij 0"))
             if pytanie == 0:
                 break
             else:
