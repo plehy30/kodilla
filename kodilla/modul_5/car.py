@@ -5,6 +5,14 @@ class Car:
         self.top_speed = top_speed
         self.color = color
 
+        self.current_speed=0
+
+    def accererate(self, step=10):
+        self.current_speed+=10
+
+    def decelerate(self,step=10):
+        self.current_speed+=-10
+
     def __str__(self):
         return f'{self.color} {self.model_name} {self.make}'
 
@@ -17,5 +25,9 @@ class Car:
 
 mustang = Car(make='Ford', model_name='Mustang', top_speed=120, color="Yellow")
 mustang1 = Car(make='Ford', model_name='Mustang', top_speed=110, color="Yellow")
+mustang.accererate()
+print(mustang.current_speed)
 print(mustang > mustang1)
+mustang.accererate(50)
+print(mustang.current_speed)
 
