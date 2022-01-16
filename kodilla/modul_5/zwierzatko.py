@@ -22,28 +22,28 @@ animal4 = Zwierze('karp', False, 1, 2, 'ryba', 30)
 animal5 = Zwierze('papuga', True, 10, 1, 'ptak', 30)
 animals = [animal1, animal2, animal3, animal4, animal5]
 
-# for a in animals:
-#     animals.sort(key=lambda a: a.stosunek)
-# print(f"zwierzę z najwyższym stosunkiem: {animals[0].nazwa}")
-# animals.sort(key=lambda animal: animal.nazwa)
-# print(f"posortowane po nazwie: ")
-# for a in animals:
-#     print(a.nazwa)
-#
-# animals.sort(key=lambda animal: animal.wiek)
-# print(f"posortowane po wieku: ")
-# for a in animals:
-#     print(a.nazwa)
-# waga = []
-# for a in animals:
-#     waga.append(a.waga)
-# srednia = sum(waga) / len(animals)
-# print(f'Średnia waga zwierząt wynosi {srednia}')
-# wiek = []
-# for a in animals:
-#     if 8 > a.wiek > 3:
-#         wiek.append(a.nazwa)
-# print(wiek)
+for a in animals:
+    animals.sort(key=lambda a: a.stosunek)
+print(f"zwierzę z najwyższym stosunkiem: {animals[0].nazwa}")
+animals.sort(key=lambda animal: animal.nazwa)
+print(f"posortowane po nazwie: ")
+for a in animals:
+    print(a.nazwa)
+
+animals.sort(key=lambda animal: animal.wiek)
+print(f"posortowane po wieku: ")
+for a in animals:
+    print(a.nazwa)
+waga = []
+for a in animals:
+    waga.append(a.waga)
+srednia = sum(waga) / len(animals)
+print(f'Średnia waga zwierząt wynosi {srednia}')
+wiek = []
+for a in animals:
+    if 8 > a.wiek > 3:
+        wiek.append(a.nazwa)
+print(wiek)
 
 na_litere = []
 for a in animals:

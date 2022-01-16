@@ -1,5 +1,3 @@
-from faker import Faker
-
 class Film:
     def __init__(self, tytul, rok, gatunek, odtworzenia=0):
         self.tytul = tytul
@@ -38,12 +36,3 @@ for f in lista_filmow:
         print("%s jest filmem" % (f.tytul))
     else:
         print("%s jest serialem" % (f.tytul))
-
-
-# def search(lista_filmow, tytul):
-#     try:
-#         i = lista_filmow.(tytul)
-#         return i
-#     except ValueError:
-#         return -1
-# print(search(lista_filmow,"Dom"))
