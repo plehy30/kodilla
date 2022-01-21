@@ -49,5 +49,4 @@ na_litere = []
 for a in animals:
     if a.nazwa[0] == "k":
         na_litere.append(a.nazwa)
-# na_litere=list(filter(lambda z: z.nazwa[0]=="k",animals))
 print(na_litere)
