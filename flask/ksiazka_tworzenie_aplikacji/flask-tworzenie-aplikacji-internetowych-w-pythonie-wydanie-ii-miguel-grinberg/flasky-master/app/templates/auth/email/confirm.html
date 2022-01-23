@@ -1,0 +1,8 @@
+<p>Użytkowniku {{ user.username }},</p>
+<p>Witaj w aplikacji <b>Flasky</b>!</p>
+<p>Aby potwierdzić swoje konto <a href="{{ url_for('auth.confirm', token=token, _external=True) }}">kliknij tutaj</a>.</p>
+<p>Możesz też skopiować poniższy adres do paska adresu swojej przeglądarki:</p>
+<p>{{ url_for('auth.confirm', token=token, _external=True) }}</p>
+<p>Z poważaniem,</p>
+<p>Zespół Flasky</p>
+<p><small>Uwaga: odpowiedzi na tę wiadomość nie są odczytywane.</small></p>

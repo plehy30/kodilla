@@ -1,0 +1,31 @@
+ C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2>python -m venv C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2
+(rozdzial_2) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2>Scripts\activate
+
+(rozdzial_2) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2>python -m venv C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2
+Error: [Errno 13] Permission denied: 'C:\\Users\\ola\\Documents\\python\\jet_brains_py_charm\\flask\\ksiazka_tworzenie_aplikacji\\rozdzial_2\\Scripts\\python.exe'
+
+(rozdzial_2) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2>pip install Flask
+Requirement already satisfied: Flask in c:\users\ola\documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2\lib\site-packages (2.0.2)
+Requirement already satisfied: itsdangerous>=2.0 in c:\users\ola\documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2\lib\site-packages (from Flask) (2.0.1)
+Requirement already satisfied: click>=7.1.2 in c:\users\ola\documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2\lib\site-packages (from Flask) (8.0.3)
+Requirement already satisfied: Werkzeug>=2.0 in c:\users\ola\documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2\lib\site-packages (from Flask) (2.0.2)
+Requirement already satisfied: Jinja2>=3.0 in c:\users\ola\documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2\lib\site-packages (from Flask) (3.0.3)
+Requirement already satisfied: colorama in c:\users\ola\documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2\lib\site-packages (from click>=7.1.2->Flask) (0.4.4)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\ola\documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2\lib\site-packages (from Jinja2>=3.0->Flask) (2.0.1)
+
+(rozdzial_2) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2>set FLASK_APP=C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2\hello.py
+
+(rozdzial_2) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2>set FLASK_ENV=development
+
+(rozdzial_2) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2>flask run
+ * Serving Flask app 'C:\\Users\\ola\\Documents\\python\\jet_brains_py_charm\\flask\\ksiazka_tworzenie_aplikacji\\rozdzial_2\\hello.py' (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 142-191-454
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [23/Jan/2022 13:12:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2022 13:12:21] "GET /favicon.ico HTTP/1.1" 404 -
+
+(rozdzial_2) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\ksiazka_tworzenie_aplikacji\rozdzial_2>

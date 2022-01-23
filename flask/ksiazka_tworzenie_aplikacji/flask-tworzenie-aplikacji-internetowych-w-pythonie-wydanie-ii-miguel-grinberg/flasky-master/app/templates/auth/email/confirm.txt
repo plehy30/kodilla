@@ -1,0 +1,13 @@
+Użytkowniku {{ user.username }},
+
+Witaj w aplikacji Flasky!
+
+Aby potwierdzić swoje konto kliknij poniższy link:
+
+{{ url_for('auth.confirm', token=token, _external=True) }}
+
+Z poważaniem,
+
+Zespół Flasky
+
+Uwaga: odpowiedzi na tę wiadomość nie są odczytywane.

@@ -1,0 +1,7 @@
+<p>{{ user.username }},</p>
+<p>Aby potwierdzić swój nowy adres e-mail <a href="{{ url_for('auth.change_email', token=token, _external=True) }}">kliknij tutaj</a>.</p>
+<p>Możesz też skopiować poniższy adres do paska adresu swojej przeglądarki:</p>
+<p>{{ url_for('auth.change_email', token=token, _external=True) }}</p>
+<p>Z poważaniem,</p>
+<p>Zespół Flasky</p>
+<p><small>Uwaga: odpowiedzi na tę wiadomość nie są odczytywane.</small></p>

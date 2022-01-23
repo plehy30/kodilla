@@ -1,0 +1,12 @@
+Użytkowniku {{ user.username }},
+
+Aby potwierdzić swój nowy adres e-mail kliknij poniższy link.
+
+{{ url_for('auth.change_email', token=token, _external=True) }}
+
+Z poważaniem,
+
+Zespół Flasky
+
+Uwaga: odpowiedzi na tę wiadomość nie są odczytywane.
+

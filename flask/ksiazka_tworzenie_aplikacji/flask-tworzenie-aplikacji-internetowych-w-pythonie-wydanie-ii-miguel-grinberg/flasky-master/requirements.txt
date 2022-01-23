@@ -1,0 +1,3 @@
+# Ten plik wymagań jest używany przez platformę Heroku
+# Wymagania związane z innymi konfiguracjami zapisane są w katalogu requirements
+-r requirements/heroku.txt
