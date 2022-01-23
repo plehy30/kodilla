@@ -1,0 +1,83 @@
+C:\Users\ola\Documents\python\flask>python -m venv C:\Users\ola\Documents\python\flask
+
+C:\Users\ola\Documents\python\flask>Scripts\activate
+
+(flask) C:\Users\ola\Documents\python\flask>pip install Flask
+Collecting Flask
+  Using cached Flask-2.0.2-py3-none-any.whl (95 kB)
+Collecting itsdangerous>=2.0
+  Using cached itsdangerous-2.0.1-py3-none-any.whl (18 kB)
+Collecting click>=7.1.2
+  Using cached click-8.0.3-py3-none-any.whl (97 kB)
+Collecting Werkzeug>=2.0
+  Using cached Werkzeug-2.0.2-py3-none-any.whl (288 kB)
+Collecting Jinja2>=3.0
+  Using cached Jinja2-3.0.3-py3-none-any.whl (133 kB)
+Collecting colorama
+  Using cached colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting MarkupSafe>=2.0
+  Using cached MarkupSafe-2.0.1-cp310-cp310-win_amd64.whl (15 kB)
+Installing collected packages: MarkupSafe, colorama, Werkzeug, Jinja2, itsdangerous, click, Flask
+Successfully installed Flask-2.0.2 Jinja2-3.0.3 MarkupSafe-2.0.1 Werkzeug-2.0.2 click-8.0.3 colorama-0.4.4 itsdangerous-2.0.1
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'C:\Users\ola\Documents\python\flask\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(flask) C:\Users\ola\Documents\python\flask>C:\Users\ola\Documents\python\flask\Scripts\python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\ola\documents\python\flask\lib\site-packages (21.2.4)
+Collecting pip
+  Using cached pip-21.3.1-py3-none-any.whl (1.7 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.2.4
+    Uninstalling pip-21.2.4:
+      Successfully uninstalled pip-21.2.4
+Successfully installed pip-21.3.1
+
+(flask) C:\Users\ola\Documents\python\flask>cd C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie
+
+(flask) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie>python -m venv
+usage: venv [-h] [--system-site-packages] [--symlinks | --copies] [--clear] [--upgrade] [--without-pip]
+            [--prompt PROMPT] [--upgrade-deps]
+            ENV_DIR [ENV_DIR ...]
+venv: error: the following arguments are required: ENV_DIR
+
+(flask) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie>python -m venv C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie
+
+(flask) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie>Scripts\activate
+
+(dziedziczenie) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie>pip install Flask
+Collecting Flask
+  Using cached Flask-2.0.2-py3-none-any.whl (95 kB)
+Collecting Jinja2>=3.0
+  Using cached Jinja2-3.0.3-py3-none-any.whl (133 kB)
+Collecting click>=7.1.2
+  Using cached click-8.0.3-py3-none-any.whl (97 kB)
+Collecting itsdangerous>=2.0
+  Using cached itsdangerous-2.0.1-py3-none-any.whl (18 kB)
+Collecting Werkzeug>=2.0
+  Using cached Werkzeug-2.0.2-py3-none-any.whl (288 kB)
+Collecting colorama
+  Using cached colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting MarkupSafe>=2.0
+  Using cached MarkupSafe-2.0.1-cp310-cp310-win_amd64.whl (15 kB)
+Installing collected packages: MarkupSafe, colorama, Werkzeug, Jinja2, itsdangerous, click, Flask
+Successfully installed Flask-2.0.2 Jinja2-3.0.3 MarkupSafe-2.0.1 Werkzeug-2.0.2 click-8.0.3 colorama-0.4.4 itsdangerous-2.0.1
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the 'C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(dziedziczenie) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie>C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie\Scripts\python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\ola\documents\python\jet_brains_py_charm\flask\dziedziczenie\lib\site-packages (21.2.4)
+Collecting pip
+  Using cached pip-21.3.1-py3-none-any.whl (1.7 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.2.4
+    Uninstalling pip-21.2.4:
+      Successfully uninstalled pip-21.2.4
+Successfully installed pip-21.3.1
+
+(dziedziczenie) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie>set FLASK_APP=C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie\main.py
+
+(dziedziczenie) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie>set FLASK_ENV=development
+
+(dziedziczenie) C:\Users\ola\Documents\python\jet_brains_py_charm\flask\dziedziczenie>flask run

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Title</title>
+</head>
+<body>
+    <div id="errors">
+        {% if errors %}
+        <h2>errors!</h2>
+        <ol>
+            {% for error in errors %}
+            <li>{{error}}</li>
+            {% endfor %}
+        </ol>
+    </div>
+    {% endif %}
+    <h1>Warehouse</h1>
+    <img src="{{ url_for('static', filename='linux.png') }}">
+    <ul>
+        {% for item in items %}
+        <li>{{item}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

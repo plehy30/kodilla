@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    {% endblock %}
+    <title>Title</title>
+</head>
+<body>
+<h1>Warehouse</h1>
+<img src="{{url_for('static',filename='linux.jpg')}}"/>
+<div id="content">{% block content %}{% endblock %}</div>
+</body>
+</html>
