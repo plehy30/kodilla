@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>kontakt</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Author" content="ola">
+<meta name="Robots" content="ALL">
+<link rel="stylesheet" href="{{ url_for('static', filename='strona.css') }}">
+</head>
+<body>
+<h1>Witaj na mojej stronie domowej</h1>
+<br>
+<img src="{{url_for('static',filename='albert.jpg')}}" />
+<strong class="moja">Kontakt</strong><br>
+<ul><li><strong><h3>email:</h3></strong></li>
+<li><strong><h3>telefon:</h3></strong></li></ul><br>
+<h2>Wyślij wiadomość</h2><br>
+<form action="" method=""><textarea></textarea><input type="submit" value="Wyślij">
+</form>
+</body>
+</html>
