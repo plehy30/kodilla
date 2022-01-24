@@ -1,3 +1,9 @@
+from faker import Faker
+
+fake = Faker()
+print(fake.name())
+
+
 class BaseCards:
     def __init__(self, name, last_name, tel, company, standing, e_mail):
         self.name = name

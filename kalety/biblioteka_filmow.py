@@ -36,3 +36,15 @@ for f in lista_filmow:
         print("%s jest filmem" % (f.tytul))
     else:
         print("%s jest serialem" % (f.tytul))
+
+
+def search():
+    twoj_tytul = input("Podaj tytuł filmu lub serialu: ")
+    for f in lista_filmow:
+        if twoj_tytul == f.tytul:
+            print(f'Twój film {twoj_tytul} jest na liście')
+        else:
+            continue
+
+
+search()
