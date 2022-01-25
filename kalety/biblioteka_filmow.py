@@ -48,3 +48,13 @@ def search():
 
 
 search()
+
+# import random
+#
+#
+# x = [5, 7, 6, 3, 8, 9]x
+#
+# print(random.choice(x))
+#
+#
+# print(random.randint(1, 10))

@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
@@ -7,10 +7,20 @@ app = Flask(__name__)
 def ja():  # put application's code here
     return render_template("o_mnie.html")
 
-@app.route('/kontakt')
+
+@app.route('/kontakt', methods=['GET', 'POST'])
 def kontakt():  # put application's code here
-    return render_template("kontakt1.html")
+
+    request.method == 'POST'
+    print(f'Otrzymaliśmy wiadomość: {request.form}')
+    return render_template("kontakt.html")
+    # if request.method == 'GET':
+    #     print("We received GET")
+    #     return render_template("kontakt.html")
+    # elif request.method == 'POST':
+    #     print("We received POST")
+    #     print(request.form)
+    #     return redirect("/")
 
 
-if __name__ == '__main__':
-    app.run()
+

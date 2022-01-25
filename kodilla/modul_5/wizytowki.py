@@ -62,3 +62,13 @@ for p in persons:
 
 print(person1)
 print(person1.label_length)
+
+# pip install Faker
+
+# from faker import Faker
+#
+# fake = Faker()
+#
+# print(fake.name())
+# print(fake.text(300))
+# print(fake.email())
