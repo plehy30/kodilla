@@ -1,8 +1,5 @@
 from faker import Faker
 
-fake = Faker()
-print(fake.name())
-
 
 class BaseCards:
     def __init__(self, name, last_name, tel, company, standing, e_mail):
@@ -34,6 +31,9 @@ class BusinessCard(BaseCards):
         super().__init__(name, last_name, tel, company, standing, e_mail)
         self.tel_prac = tel_prac
 
+    def __str__(self):
+        return f'{self.name} {self.last_name} {self.tel} {self.company} {self.standing} {self.e_mail} {self.tel_prac} '
+
     @property
     def contact_phone(self):
         return self.tel_prac
@@ -62,6 +62,24 @@ for p in persons:
 
 print(person1)
 print(person1.label_length)
+
+
+def create_contacts(n, bussines=False):
+    f = Faker()
+    for i in range(n):
+        if bussines:
+            print(BusinessCard(f.first_name(), f.last_name(), f.phone_number(),f.company(), f.job(), f.email(), f.phone_number()))
+        else:
+            print(BaseCards(f.first_name(), f.last_name(), f.phone_number(),f.company(), f.job(), f.email()))
+
+
+create_contacts(5)
+
+# (fake.name(),end=" ")
+# (fake.email(),end=" ")
+# (fake.address(),end=" ")
+# (fake.phone_number(),end=" ")
+# (fake.job())
 
 # pip install Faker
 
