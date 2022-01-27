@@ -1,3 +1,6 @@
+import random
+
+
 class Film:
     def __init__(self, tytul, rok, gatunek, odtworzenia=0):
         self.tytul = tytul
@@ -9,7 +12,7 @@ class Film:
         self.odtworzenia += 1
 
     def __str__(self):
-        return "%s (%d)" % (self.tytul, self.rok)
+        return "%s (%d) %d" % (self.tytul, self.rok, self.odtworzenia)
 
 
 class Serial(Film):
@@ -19,8 +22,8 @@ class Serial(Film):
         self.sezon = sezon
 
     def __str__(self):
-        return "%s S%02dE%02d" % (self.tytul, self.sezon, self.odcinek)
-        # f"{self.tytul} S{self.sezon}E{self.odcinek}"
+        # return "%s S%02dE%02d %d" % (self.tytul, self.sezon, self.odcinek,self.odtworzenia)
+        return f"{self.tytul} S{self.sezon:02d}E{self.odcinek:02d} {self.odtworzenia}"
 
 
 lista_filmow = []
@@ -41,13 +44,42 @@ for f in lista_filmow:
 def search():
     twoj_tytul = input("Podaj tytuł filmu lub serialu: ")
     for f in lista_filmow:
-        if twoj_tytul == f.tytul:
+        if twoj_tytul.lower() == f.tytul.lower():
             print(f'Twój film {twoj_tytul} jest na liście')
         else:
             continue
 
 
-search()
+# search()
+
+
+def generate_views():
+    x = random.choice(lista_filmow)
+    x.odtworzenia += random.randint(1, 100)
+
+
+for f in lista_filmow:
+    print(f)
+print("-----------------------------------")
+generate_views()
+for f in lista_filmow:
+    print(f)
+
+
+def generate(n):
+    for i in range(n):
+        generate_views()
+        for f in lista_filmow:
+            print(f)
+        print("-----------------------------------")
+
+
+generate(10)
+
+lista_filmow.sort(key=lambda film: film.odtworzenia,reverse=True)
+for i in range(2):
+    print(lista_filmow[i])
+print("-----------------------------------")
 
 # import random
 #
