@@ -7,5 +7,5 @@
 # Z drugiej strony, jeśli goal to 18, a chunk to 2 - wtedy NIE możemy zbudować mostu, a funkcja powinna zwracać wartość False.
 
 def build_bridge(chunk,goal):
-    return pass
+    return
 

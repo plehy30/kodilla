@@ -25,4 +25,5 @@ print(crit1)
 print("Bezpośrednie wyświetlanie wartości atrybutu crit1.name: ")
 print(crit1.name)
 
+
 input("\nAbe zakończyć naciśnij enter")
