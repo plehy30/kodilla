@@ -17,12 +17,10 @@ class Ulamek:
         return self.li / self.mi
 
     def __format__(self, d):
-        if d=="":
+        if d == "":
             return str(self)
-        elif d[-1]=="d":
-            return str(self.li/self.mi)
-
-
+        elif d[-1] == "d":
+            return str(self.li / self.mi)
 
     def normalizacja(self):  # skracanie
         if self.mi < 0:

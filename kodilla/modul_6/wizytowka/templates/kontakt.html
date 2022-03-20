@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>kontakt</title>
-{% extends "o_mnie.html" %}
-</head>
-<body>
-{% extends "o_mnie.html" %}
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Witaj na mojej stronie domowej</h1>
+<br>
+{#<img src="img/albert.jpg" width="202" height="250" alt="albert" title="albert">#}
 <strong class="moja">Kontakt</strong><br>
 <ul><li><strong><h3>email:</h3></strong></li>
 <li><strong><h3>telefon:</h3></strong></li></ul><br>
 <h2>Wyślij wiadomość</h2><br>
-<form action="" method="POST"><textarea></textarea><input type="submit" value="Wyślij">
+<form action="" method="POST"><textarea name="text"></textarea><input type="submit" value="Wyślij">
 </form>
-</body>
-</html>
+{% endblock %}
