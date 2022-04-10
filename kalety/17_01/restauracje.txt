@@ -1,0 +1,8 @@
+Restauracja. 
+Przygotuj klasę o nazwie Restaurant. Metoda __init__() w klasie Restaurant powinna przechowywać dwa atrybuty: restaurant_name i cuisine_type. Utwórz metodę o nazwie describe_restaurant() wyświetlającą te dwa fragmenty informacji oraz metodę o nazwie open_restaurant() wyświetlającą informacje o godzinach pracy restauracji. Na podstawie przygotowanej klasy utwórz egzemplarz restaurant. Wyświetl oddzielnie oba atrybuty, a następnie wywołaj obie metody.
+
+Trzy restauracje. 
+Pracę rozpocznij od klasy opracowanej w ćwiczeniu 9.1.Utwórz trzy różne egzemplarze na podstawie tej klasy, a następnie wywołaj metodę describe_restaurant() dla każdego egzemplarza. 
+
+Użytkownicy.
+Przygotuj klasę o nazwie User. Zdefiniuj w niej dwa atrybuty (first_name i last_name), a następnie utwórz kilka  innych  atrybutów,  które zwykle są przechowywane w profilu użytkownika. Zdefiniuj metodę o nazwie describe_user(), wyświetlającą podsumowanie informacji zebranych o użytkowniku. Utwórz jeszcze drugą metodę o nazwie greet_user(), która będzie wyświetlała użytkownikowi spersonalizowane powitanie. Utwórz kilka egzemplarzy reprezentujących różnych użytkowników, a następnie dla każdego z nich wywołaj obie metody.
