@@ -1,21 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>moja_strona</title>
-    {% block head %}
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="{{ url_for('static', filename='strona.css') }}">
-    {% endblock %}
-</head>
-<body>
-<h1>Witaj na mojej stronie domowej</h1>
-<br>
-<img src="{{ url_for('static',filename='albert.jpg') }}"/>
+{% extends "base.html" %}
 {% block content %}
 <strong><h2>O mnie</h2></strong><br>
 <strong><h3>imię:</h3></strong><br>
 <strong><h3>nazwisko</h3></strong>
 <!-- To jest miejsce na treść dokumentu -->
 {% endblock %}
-</body>
-</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+Wynik obliczenia {{ wynik }}
+
+{% for prognoza in prognozy %}
+    data: {{ prognoza["created"] }}, temperatura: {{ prognoza["the_temp"] }} <br>
+{% endfor %}
+
+
+<form method="POST" action="/pogoda/">
+    <select name="location">
+        <option value="warsaw">warsaw</option>
+        <option value="berlin">berlin</option>
+        <option value="paris">paris</option>
+    </select>
+    <input type="submit" value="pobierz">
+</form>
+
+</body>
+</html>

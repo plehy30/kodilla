@@ -1,0 +1,6 @@
+Liczba obsłużonych. 
+Pracę rozpocznij od programu utworzonego w ćwiczeniu  Restauracja.  Dodaj  atrybut  o  nazwie  number_served  o  wartości  domyślnej  0. Następnie na podstawie klasy utwórz egzemplarz o nazwie restaurant. Wyświetl liczbę klientów obsłużonych przez restaurację, zmień tę wartość i później wyświetl nową. Dodaj metodę o nazwie set_number_served(), pozwalającą na zdefiniowanie liczby obsłużonych klientów. Wywołaj tę metodę wraz z różnymi wartościami i je wyświetl.
+Dodaj metodę o nazwie increment_number_served(), pozwalającą na inkrementację wartości wskazującej na liczbę obsłużonych klientów. Wywołaj tę metodę dowolną ilość razy, symulując w ten sposób liczbę klientów obsłużonych na przykład w ciągu dnia roboczego.
+Próby logowania. 
+Pracę rozpocznij od programu utworzonego w ćwiczeniu Użytkownicy. Do klasy User dodaj metodę o nazwie increment_login_attempts(), pozwalający  na  inkrementację  wartości  login_attempts  o  1.  Utwórz  drugą metodę o nazwie reset_login_attempts(), która będzie zerowała wartość login_attempts. Utwórz egzemplarz klasy User i kilkukrotnie wywołaj metodę increment_login_attempts(). Wyświetl wartość login_attempts, aby mieć pewność o jej prawidłowej inkrementacji. Następnie wywołaj metodę reset_login_attempts().
+Ponownie wyświetl wartość login_attempts i sprawdź, czy na pewno wynosi 0.

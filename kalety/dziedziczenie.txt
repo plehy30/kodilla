@@ -1,0 +1,10 @@
+Budka z lodami. 
+Budka z lodami to szczególny rodzaj restauracji. Zdefiniuj klasę o nazwie IceCreamStand dziedziczącą  po klasie Restaurant utworzonej w ćwiczeniu 9.1 lub 9.4. Dowolna wersja wymienionej klasy będzie się sprawdzać  —  po  prostu  wybierz  jedną  z  nich.  Dodaj  atrybut  o  nazwie flavors, przechowujący listę różnych smaków lodów. Zdefiniuj metodę wyświetlającą dostępne smaki lodów. Utwórz egzemplarz klasy IceCreamStand i wywołaj nową metodę.
+
+Admin. 
+Administrator to specjalny rodzaj użytkownika. Zdefiniuj klasę o nazwie Admin dziedziczącą po klasie User utworzonej w ćwiczeniu 9.3 lub 9.5. Dodaj atrybut privileges przechowujący listę ciągów tekstowych takich jak „może dodać post”, „może usunąć post” czy „może zbanować użytkownika”. Zdefiniuj metodę o nazwie show_privileges(), wyświetlającą listę uprawnień
+administratora. Utwórz egzemplarz klasy Admin i wywołaj nową metodę.
+
+Uprawnienia.  
+Zdefiniuj  oddzielną  klasę  Privileges.  Ta  klasa  powinna mieć jeden atrybut (privileges), przechowujący listę ciągów tekstowych, tak jak przedstawiłem to w poprzednim ćwiczeniu. Metodę show_privileges() przenieś do nowej klasy. Utwórz egzemplarz klasy Privileges jako atrybut w klasie Admin. Następnie utwórz nowy egzemplarz klasy Admin i użyj metody show_
+privileges() do wyświetlenia uprawnień.

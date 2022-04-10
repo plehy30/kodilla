@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf1a9f15-db28-4807-954f-dd36b8f7c7fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../dla_kazdego/list_slowniki/szubienica.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../dla_kazdego/powtorka/rozdzial 3/cwiczenie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/bank/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/bank/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/bank/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/bank/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/bank/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/bank/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/bank/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/bank/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/bank/12waluty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/biblioteka/.idea/biblioteka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/biblioteka/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/biblioteka/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/biblioteka/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/biblioteka/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/biblioteka/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/biblioteka/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/biblioteka/biblio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/biblioteka/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/pogoda/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/pogoda/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/pogoda/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/pogoda/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/pogoda/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/pogoda/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/pogoda/.idea/pogoda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/pogoda/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/pogoda/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/pogoda/templates/maths.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/todo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/todo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/todo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/todo/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/todo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/todo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/todo/.idea/todo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/todo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/todo/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/wtf/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/wtf/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/wtf/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/wtf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/wtf/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/wtf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/wtf/.idea/wtf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/wtf/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul_7/wtf/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/movies_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startbootstrap-bare-gh-pages.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startbootstrap-bare-gh-pages/startbootstrap-bare-gh-pages/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startbootstrap-bare-gh-pages/startbootstrap-bare-gh-pages/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startbootstrap-bare-gh-pages/startbootstrap-bare-gh-pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startbootstrap-bare-gh-pages/startbootstrap-bare-gh-pages/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/aplikacje_webowe/film/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/aplikacje_webowe/film/.idea/film.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/aplikacje_webowe/film/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/aplikacje_webowe/film/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/aplikacje_webowe/film/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/aplikacje_webowe/film/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/aplikacje_webowe/film/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/aplikacje_webowe/film/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/aplikacje_webowe/film/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/rest_api/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/rest_api/book_library.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../udemy/rest_api/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/rozdzial_7/cwiczenie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/rozdzial_8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/rozdzial_8/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/rozdzial_8/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/rozdzial_8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/rozdzial_8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/rozdzial_8/.idea/rozdzial_8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/rozdzial_8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/rozdzial_8/funkcje1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/Python TKinter.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/Python Turtle.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/01palindrom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/02szyfrcezara.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/02szyfrklucz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/03sortbubble.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/03sortinsert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/03sortselect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/04lista.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/05okno.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/06hanoi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/06hanoigraf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/07kwota.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/08obiektyFilm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/09fraktalH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/09fraktaldrzewo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/09fraktalfigury.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/09fraktalgosper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/09fraktalkoch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/09fraktalkwadrat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/09fraktalkwadrat2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/09fraktalpap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/09fraktalsierpinski.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/10rozklad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kalety/projekty/turtle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/pycharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/pycharm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modul_7/bank/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modul_7/bank/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modul_7/formularz" beforeDir="false" afterPath="$PROJECT_DIR$/../modul_7/formularz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modul_7/wtf/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modul_7/wtf/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/klasy/dog.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../instrukcje_dla_programisty/klasy/dog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kalety/12waluty.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kalety/12waluty.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kalety/projekty/11ulamek.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kalety/projekty/11ulamek.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kodilla/modul_6/wizytowka/templates/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kodilla/modul_6/wizytowka/templates/kontakt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kodilla/modul_6/wizytowka/templates/o_mnie.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kodilla/modul_6/wizytowka/templates/o_mnie.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26WuGTysFTa22UF7rvFehy4mzEI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ola\Documents\python\jet_brains_py_charm\flask\kodilla\movies_project\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="movies_project" type="Python.FlaskServer">
+      <module name="movies_project" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf1a9f15-db28-4807-954f-dd36b8f7c7fd" name="Changes" comment="" />
+      <created>1647551567665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647551567665</updated>
+      <workItem from="1647551578766" duration="212000" />
+      <workItem from="1647633495490" duration="596000" />
+      <workItem from="1647718082109" duration="604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/movies_project$movies_project.coverage" NAME="movies_project Coverage Results" MODIFIED="1647551659014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
