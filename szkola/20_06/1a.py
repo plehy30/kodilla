@@ -1,0 +1,6 @@
+print(int("1") + int("1"))
+print(3 * 3)
+print(3 ** 3)
+print(28 / 3)
+print(28 // 3)
+print(28 % 3)
